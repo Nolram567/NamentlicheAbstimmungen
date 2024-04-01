@@ -86,7 +86,7 @@ if __name__ == '__main__':
 
     '''
      
-    LP20 (G1): 0.243;
+    LP20 (G1): 0.243; Communities: [['BÜ90/GR', 'SPD', 'FDP'], ['DIE LINKE.', 'CDU/CSU', 'AfD']]
     [('SPD', 'BÜ90/GR', {'weight': 129}), ('SPD', 'FDP', {'weight': 127}), ('SPD', 'AfD', {'weight': 22}),
     ('SPD', 'DIE LINKE.', {'weight': 39}), ('SPD', 'CDU/CSU', {'weight': 60}), ('CDU/CSU', 'AfD', {'weight': 62}),
     ('CDU/CSU', 'BÜ90/GR', {'weight': 60}), ('CDU/CSU', 'FDP', {'weight': 60}),
@@ -94,7 +94,7 @@ if __name__ == '__main__':
     ('BÜ90/GR', 'AfD', {'weight': 22}), ('BÜ90/GR', 'DIE LINKE.', {'weight': 39}),
     ('FDP', 'AfD', {'weight': 22}), ('FDP', 'DIE LINKE.', {'weight': 39}), ('AfD', 'DIE LINKE.', {'weight': 52})]
     
-    LP19 (G2): 0.174;
+    LP19 (G2): 0.174; Communities: [['CDU/CSU', 'SPD'], ['DIE LINKE.', 'BÜ90/GR', 'AfD', 'FDP']]
     [('CDU/CSU', 'SPD', {'weight': 242}), ('CDU/CSU', 'AfD', {'weight': 72}), ('CDU/CSU', 'FDP', {'weight': 129}),
     ('CDU/CSU', 'BÜ90/GR', {'weight': 112}), ('CDU/CSU', 'DIE LINKE.', {'weight': 76}), ('SPD', 'AfD', {'weight': 74}),
     ('SPD', 'FDP', {'weight': 127}), ('SPD', 'BÜ90/GR', {'weight': 110}), ('SPD', 'DIE LINKE.', {'weight': 74}),
@@ -102,7 +102,7 @@ if __name__ == '__main__':
     ('FDP', 'BÜ90/GR', {'weight': 123}), ('FDP', 'DIE LINKE.', {'weight': 101}), 
     ('DIE LINKE.', 'BÜ90/GR',{'weight': 162})]
     
-    LP18 (G3): 0.495;
+    LP18 (G3): 0.495; Communities: [['CDU/CSU', 'SPD'], ['DIE LINKE.', 'BÜ90/GR']]
     [('CDU/CSU', 'SPD', {'weight': 209}), ('CDU/CSU', 'BÜ90/GR', {'weight': 44}), ('CDU/CSU', 'DIE LINKE.',
      {'weight': 8}), ('SPD', 'BÜ90/GR', {'weight': 47}), ('SPD', 'DIE LINKE.', {'weight': 11}),
     ('DIE LINKE.', 'BÜ90/GR', {'weight': 123})]
