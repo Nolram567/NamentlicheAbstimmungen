@@ -28,7 +28,7 @@ if __name__ == '__main__':
     # print(G3.edges(data=True))
 
     '''
-    Die Daten werden bereinigt, in dem Knoten entfernt werden, die wegen fehlerhafter Benennungen entstanden oder
+    Die Daten werden bereinigt, indem Knoten entfernt werden, die wegen fehlerhafter Benennungen oder
     anderer Gründe entstanden sind, um die Berechnung der Communities und der Modularität nicht zu verzerren.
     '''
 
@@ -41,7 +41,8 @@ if __name__ == '__main__':
     # G3.remove_node("BÜNDNIS`90/DIE GRÜNEN")
     # G3.remove_node("DIE LINKE")
 
-    '''Wir nutzen die Louvain-Methode, um die Community-Partitionierung von G1 zu eruieren, bei der die Modularität
+    '''
+    Wir nutzen die Louvain-Methode, um die Community-Partitionierung von G1 zu eruieren, bei der die Modularität
     maximal ist.
     '''
     partition = community_louvain.best_partition(G1, weight='weight')
@@ -56,7 +57,7 @@ if __name__ == '__main__':
     '''
     1) Wir berechnen das Netzwerklayout nach dem Spring-Embedding-Algorithmus ('pos')
     2) Wir färben die Knoten nach Communityzugehörigkeit ein und vergeben Labels.
-    3) Wir fügen die Kantengewichte hinzu
+    3) Wir fügen der Grafik die Kantengewichte hinzu.
     4) Wir visualieren das Netzwerk und lassen es ausgeben.
     '''
     pos = nx.spring_layout(G1)
@@ -77,7 +78,7 @@ if __name__ == '__main__':
     plt.show()
 
     '''
-    #Wir berechnen die gewichtete Modularität der Netzwerke; zusätzlich finden sich hier die Kantenlisten der Abstimmungs-
+    #Wir berechnen die Modularität der Netzwerke; zusätzlich finden sich hier die Kantenlisten der Abstimmungs-
     netzwerke. 
     '''
     print(na.calculate_weighted_modularity(G1, [{'SPD', 'FDP', 'BÜ90/GR'}, {'DIE LINKE.', 'AfD', 'CDU/CSU'}]))
@@ -116,7 +117,7 @@ if __name__ == '__main__':
     netzwerken: 0.14299057816260974
     
     Diese Kennziffer lässt sich zwar berechnen, ist aber eigentlich wenig sinnvoll, da i. d. R. in zufälligen Abstimmungsnetzwerken
-    keine Communitys bzw. genau eine Community entsteht.
+    keine Communities bzw. genau eine Community entsteht.
     
     Die Modularität minimal polarisierter Abstimmungsnetzwerke, bei denen alle Fraktionen stets die gleiche Wahl treffen,
     liegt ebenfalls bei 0.14299057816260974, da auch hier nur genau eine Community besteht.
