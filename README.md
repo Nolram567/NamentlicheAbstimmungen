@@ -1,5 +1,5 @@
 
-# Die namentlichen Abstimmungen im Bundestag als Netzwerk.
+# Die namentlichen Abstimmungen des Bundestag als Netzwerk.
 
 Diese Python-Anwendung ermöglicht die Analyse und Visualisierung von (gewichteten) Netzwerken basierend auf den namentlichen Abstimmungen im Bundestag. Sie extrahiert Daten aus Excel-Dateien, generiert Graphen mit Hilfe von `networkx` und analysiert die Netzwerkstruktur. Die Abstimmungen kann man unter [https://www.bundestag.de/parlament/plenum/abstimmung/liste](https://www.bundestag.de/parlament/plenum/abstimmung/liste) downloaden; derzeit liegen die Abstimmungen der 18. und 19. Legislaturperiode vollständig vor. Die Abstiimmungen der 20. Legislaturperiode isn nicht vollständig, da sie derziet noch läuft.
 
