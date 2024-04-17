@@ -23,6 +23,7 @@ pip install openpyxl
 
 1. **Daten vorbereiten:** Platzieren Sie Ihre `.xls` oder `.xlsx` Dateien im Verzeichnis `Abstimmungen/LP<Legislaturperiode>`. Derzeit liegen alle namentlichen Abstimmungen des 18., 19. und 20. Legislaturperiode vor.
 2. **Skript ausführen:** Starten Sie das Skript durch Ausführung von `python analyse.py`. Eine exemplarische Nutzung ist im Skript `main.py` nachlesbar. Ein Abstimmungsnetzwerk kann wie folgt aussehen: Legislaturperiode 20; Stand: 14.03.2024.
+   
 ![Ein visualisiertes Abstimmungsnetzwerk.](public/Figure_1.PNG)
 
 
