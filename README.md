@@ -1,13 +1,13 @@
 
 # Die namentlichen Abstimmungen des Bundestag als Netzwerk.
 
-Diese Python-Anwendung ermöglicht die Analyse und Visualisierung von (gewichteten) Netzwerken basierend auf den namentlichen Abstimmungen im Bundestag. Sie extrahiert Daten aus Excel-Dateien, generiert Graphen mit Hilfe von `networkx` und analysiert die Netzwerkstruktur. Die Abstimmungen kann man unter [https://www.bundestag.de/parlament/plenum/abstimmung/liste](https://www.bundestag.de/parlament/plenum/abstimmung/liste) downloaden; derzeit liegen die Abstimmungen der 18. und 19. Legislaturperiode vollständig vor. Die Abstiimmungen der 20. Legislaturperiode isn nicht vollständig, da sie derziet noch läuft.
+Diese Python-Anwendung ermöglicht die Analyse und Visualisierung von (gewichteten) Netzwerken basierend auf den namentlichen Abstimmungen im Bundestag. Sie extrahiert Daten aus Excel-Dateien, generiert Graphen mit Hilfe von `networkx` und analysiert die Netzwerkstruktur. Die Abstimmungen kann man unter [https://www.bundestag.de/parlament/plenum/abstimmung/liste](https://www.bundestag.de/parlament/plenum/abstimmung/liste) downloaden; derzeit liegen die Abstimmungen der 18. und 19. Legislaturperiode vollständig vor. Die Abstimmungen der 20. Legislaturperiode sind nicht vollständig, da sie derzeit noch läuft.
 
 ## Hauptfunktionen
 
 - **Datendeserialisierung:** Laden von Abstimmungsdaten aus Excel-Dateien.
 - **Netzwerkgenerierung:** Erstellung von Netzwerken basierend auf Abstimmungsmustern.
-- **Analyse:** Berechnung von Netzwerkmetriken wie modularity.
+- **Analyse:** Berechnung von Netzwerkmetriken wie die Modularität.
 
 ## Voraussetzungen
 
