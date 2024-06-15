@@ -7,7 +7,7 @@ Diese Python-Anwendung ermöglicht die Analyse und Visualisierung von (gewichtet
 
 - **Datendeserialisierung:** Laden von Abstimmungsdaten aus Excel-Dateien.
 - **Netzwerkgenerierung:** Erstellung von Netzwerken basierend auf Abstimmungsmustern.
-- **Analyse:** Berechnung von Netzwerkmetriken wie modularity und Clustering.
+- **Analyse:** Berechnung von Netzwerkmetriken wie modularity.
 
 ## Voraussetzungen
 
