@@ -29,7 +29,7 @@ if __name__ == '__main__':
 
     '''
     Die Daten werden bereinigt, indem Knoten entfernt werden, die wegen fehlerhafter Benennungen oder
-    anderer Gründe entstanden sind, um die Berechnung der Communities und der Modularität nicht zu verzerren.
+    anderer Ursachen entstanden sind, um die Berechnung der Communities und der Modularität nicht zu verzerren.
     '''
 
     G1.remove_node("BSW")
@@ -58,7 +58,7 @@ if __name__ == '__main__':
     1) Wir berechnen das Netzwerklayout nach dem Spring-Embedding-Algorithmus ('pos')
     2) Wir färben die Knoten nach Communityzugehörigkeit ein und vergeben Labels.
     3) Wir fügen der Grafik die Kantengewichte hinzu.
-    4) Wir visualieren das Netzwerk und lassen es ausgeben.
+    4) Wir visualisieren das Netzwerk und lassen es ausgeben.
     '''
     pos = nx.spring_layout(G1)
     colors = ['black', 'darkred']
@@ -116,7 +116,7 @@ if __name__ == '__main__':
     Wir wiederholen diesen Vorgang 1000-mal und berechnen die mittlere Modularität von zufälligen Abstimmungs-
     netzwerken: 0.14299057816260974
     
-    Diese Kennziffer lässt sich zwar berechnen, ist aber eigentlich wenig sinnvoll, da i. d. R. in zufälligen Abstimmungsnetzwerken
+    Die Berechnung dieser Zahl ist eigentlich nicht sinnvoll, da i. d. R. in zufälligen Abstimmungsnetzwerken
     keine Communities bzw. genau eine Community entsteht.
     
     Die Modularität minimal polarisierter Abstimmungsnetzwerke, bei denen alle Fraktionen stets die gleiche Wahl treffen,
